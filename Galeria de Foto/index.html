@@ -11,16 +11,22 @@
             flex-wrap: wrap;
             margin: 0 auto;
             margin-top: 100px;
-            bottom: 0;
+           
         }
 
         #carrossel img.ativo {
             display: block;
+            
         
         }
-         .botao{
-          position: relative;
+        .botao-anterior , .botao-proximo{
+            background-color: red;
+            bottom: 0;
+            margin: 0 auto;
         }
+         
+          
+    
     </style>
 </head>
 <body>
@@ -36,6 +42,8 @@
         <img src="/Galeria de Foto/img/IMG-20230630-WA0104.jpg" alt="Imagem 8">
         <img src="/Galeria de Foto/img/IMG-20230710-WA0004.jpg" alt="Imagem 9">
         <img src="/Galeria de Foto/img/IMG-20230630-WA0036.jpg" alt="Imagem 10">
+
+       
     </div>
 
     <button class="botao-anterior" onclick="previous()">Anterior</button>
